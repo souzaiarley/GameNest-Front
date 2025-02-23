@@ -4,5 +4,5 @@ export const BASE_URL = 'https://gamenest-back.onrender.com'
 
 export const api = axios.create({
     baseURL: `${BASE_URL}/api`,
-    timeout: 1000
+    timeout: 3000
 });
